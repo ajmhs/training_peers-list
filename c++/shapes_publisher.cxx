@@ -32,7 +32,6 @@
 
 using std::cout;
 using std::endl;
-using stringvector_t = std::vector<std::string>;
 
 
 void run_publisher_application(unsigned int domain_id, unsigned int sample_count, bool config_peers)
