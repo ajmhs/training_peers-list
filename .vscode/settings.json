@@ -1,4 +1,19 @@
 {
+    "C_Cpp.errorSquiggles": "disabled",
+    "makefile.configurations": [
+        {
+            "name": "dbg build",
+            "makeArgs": ["DEBUG=1"]
+        },
+        {
+            "name": "std build",
+            "makeArgs": []
+        },
+    ],
+    "makefile.makefilePath": "${workspaceFolder}/c++/makefile_shapes_x64Linux4gcc7.3.0",
+    "makefile.makeDirectory": "${workspaceFolder}/c++",
+    "terminal.integrated.automationProfile.linux": null,
+    "terminal.integrated.automationShell.linux": "true",
     "files.associations": {
         "deque": "cpp",
         "string": "cpp",
